@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "ddca77e71aad1a54",
+    "type": "split",
+    "children": [
+      {
+        "id": "5168172831ceddc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20ace59a57bcc944",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Glossário de estudos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossário de estudos"
+            }
+          },
+          {
+            "id": "7b9f148f053cf1ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Glossário de estudos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossário de estudos"
+            }
+          },
+          {
+            "id": "97eca94fcfae5d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Complexidade de Algoritmos (O alicerce)"
+            }
+          },
+          {
+            "id": "ff4bf2804c93bc27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/O(1) - Complexidade Constante.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "O(1) - Complexidade Constante"
+            }
+          },
+          {
+            "id": "d0a1e489dcf59ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Over-indexing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Over-indexing"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77b5c89a090ec217",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6c40c099ec498c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f3be64123c0abfc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "6074640a9829471b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "38c8ea8aaac7178e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ea556bcfc0e103b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcd3f647d9679f92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d368690e47fcd9c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Arquitetura de software/Over-indexing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Over-indexing"
+            }
+          },
+          {
+            "id": "320570510d917d0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Arquitetura de software/Over-indexing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Over-indexing"
+            }
+          },
+          {
+            "id": "acea000d9805ed50",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "a7c714521ae6b057",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "d47ea989677523e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Arquitetura de software/Over-indexing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Over-indexing"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "7f3be64123c0abfc",
+  "lastOpenFiles": [
+    "Arquitetura de software/Over-indexing.md",
+    "Arquitetura de software/O(1) - Complexidade Constante.md",
+    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+    "Arquitetura de software/Glossário de estudos.md",
+    "Complexidade de Algoritmos.md",
+    "Computação em nuvem",
+    "Arquitetura de software",
+    "Mensageria",
+    "Banco de dados",
+    "Microserviços",
+    "FrontEnd",
+    "BackEnd"
+  ]
+}
