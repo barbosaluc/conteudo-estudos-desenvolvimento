@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5168172831ceddc6",
+        "id": "d81e2c482ea8e4bf",
         "type": "tabs",
         "children": [
           {
-            "id": "20ace59a57bcc944",
+            "id": "6ddafa2a3eb5e337",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +22,7 @@
             }
           },
           {
-            "id": "7b9f148f053cf1ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Glossário de estudos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Glossário de estudos"
-            }
-          },
-          {
-            "id": "97eca94fcfae5d05",
+            "id": "f62d0ee360d573c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,31 +36,59 @@
             }
           },
           {
-            "id": "ff4bf2804c93bc27",
+            "id": "ac70f2ce05efbae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/O(1) - Complexidade Constante.md",
+                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "O(1) - Complexidade Constante"
+              "title": "Complexidade de Algoritmos (O alicerce)"
             }
           },
           {
-            "id": "d0a1e489dcf59ed0",
+            "id": "7767c3a6a66b0017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/Over-indexing.md",
+                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Over-indexing"
+              "title": "Complexidade de Algoritmos (O alicerce)"
+            }
+          },
+          {
+            "id": "90fc1b2fedd44015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Complexidade Quadrática O(n²).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Complexidade Quadrática O(n²)"
+            }
+          },
+          {
+            "id": "34aadd80e6b2062f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Árvores de decisão (B-Trees e Índices)"
             }
           }
         ],
@@ -151,7 +165,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arquitetura de software/Over-indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Over-indexing"
+              "title": "Links inversos"
             }
           },
           {
@@ -170,12 +183,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arquitetura de software/Over-indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Over-indexing"
+              "title": "Links de saída"
             }
           },
           {
@@ -213,20 +225,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arquitetura de software/Over-indexing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Over-indexing"
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "cc73e17647edb5d1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "88612cb4cbe7e661",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -237,15 +269,28 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-spaced-repetition:Revisar flashcards": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "7f3be64123c0abfc",
   "lastOpenFiles": [
-    "Arquitetura de software/Over-indexing.md",
-    "Arquitetura de software/O(1) - Complexidade Constante.md",
+    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
+    "Arquitetura de software/Complexidade Quadrática O(n²).md",
     "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
     "Arquitetura de software/Glossário de estudos.md",
+    "Arquitetura de software/O(n) - Complexidade Linear.md",
+    "Arquitetura de software/O(1) - Complexidade Constante.md",
+    "Arquitetura de software/O(log n) - Complexidade Logarítmica.md",
+    "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
+    "Arquitetura de software/Over-indexing.md",
+    "Excalidraw/Drawing 2026-06-23 12.19.37.excalidraw.md",
+    "Excalidraw",
+    "Sem título.md",
+    "Nova pasta",
     "Complexidade de Algoritmos.md",
     "Computação em nuvem",
     "Arquitetura de software",
