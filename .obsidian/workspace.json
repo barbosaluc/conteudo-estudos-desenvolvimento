@@ -4,95 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d81e2c482ea8e4bf",
+        "id": "0e151205c77707b3",
         "type": "tabs",
         "children": [
           {
-            "id": "6ddafa2a3eb5e337",
+            "id": "205e953f7956635e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/Glossário de estudos.md",
+                "file": "Banco de dados/Full Text Search - Busca Textual Completa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glossário de estudos"
+              "title": "Full Text Search - Busca Textual Completa"
             }
           },
           {
-            "id": "f62d0ee360d573c5",
+            "id": "d22a7adb87a153c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+                "file": "Banco de dados/Índice Investido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complexidade de Algoritmos (O alicerce)"
-            }
-          },
-          {
-            "id": "ac70f2ce05efbae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Complexidade de Algoritmos (O alicerce)"
-            }
-          },
-          {
-            "id": "7767c3a6a66b0017",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Complexidade de Algoritmos (O alicerce)"
-            }
-          },
-          {
-            "id": "90fc1b2fedd44015",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Complexidade Quadrática O(n²).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Complexidade Quadrática O(n²)"
-            }
-          },
-          {
-            "id": "34aadd80e6b2062f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Árvores de decisão (B-Trees e Índices)"
+              "title": "Índice Investido"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,20 +220,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f3be64123c0abfc",
+  "active": "d22a7adb87a153c1",
   "lastOpenFiles": [
-    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
-    "Arquitetura de software/Complexidade Quadrática O(n²).md",
-    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+    "Banco de dados/Índice Investido.md",
+    "Banco de dados/Full Text Search - Busca Textual Completa.md",
+    "BackEnd/Java/_Glossário de estudos Java.md",
+    "BackEnd/Java/Conceitos de gerais de programação POO.md",
+    "BackEnd/Java/3.1 Tipos de Dados e Variáveis.md",
+    "BackEnd/Java/2.1 Conceitos gerais.md",
+    "2.2 Objeto – Instância de uma classe..md",
+    "BackEnd/Java/1.6 JDBC - Java Database Connectivity.md",
+    "BackEnd/Java/1.5 Garbage Collector.md",
+    "BackEnd/Java/1.4 Bytecode.md",
+    "BackEnd/Java/1.3 JRE (Java Runtime Environment).md",
+    "BackEnd/Java/1.2 JDK (Java Development Kit).md",
+    "BackEnd/Java/1.1 JVM (Java virtual Machine).md",
     "Arquitetura de software/Glossário de estudos.md",
+    "Sem título",
+    "BackEnd/Java",
+    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+    "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
+    "Arquitetura de software/Complexidade Quadrática O(n²).md",
+    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
     "Arquitetura de software/O(n) - Complexidade Linear.md",
     "Arquitetura de software/O(1) - Complexidade Constante.md",
     "Arquitetura de software/O(log n) - Complexidade Logarítmica.md",
-    "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
     "Arquitetura de software/Over-indexing.md",
     "Excalidraw/Drawing 2026-06-23 12.19.37.excalidraw.md",
     "Excalidraw",
-    "Sem título.md",
     "Nova pasta",
     "Complexidade de Algoritmos.md",
     "Computação em nuvem",
@@ -297,7 +255,6 @@
     "Mensageria",
     "Banco de dados",
     "Microserviços",
-    "FrontEnd",
-    "BackEnd"
+    "FrontEnd"
   ]
 }

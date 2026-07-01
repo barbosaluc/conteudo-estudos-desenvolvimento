@@ -5,3 +5,4 @@ A complexidade de algoritmos é medida através da Notação Big O. Ela não med
 [[O(log n) - Complexidade Logarítmica]]
 [[O(n) - Complexidade Linear]]
 [[O(n log n) - Complexidade Quasilinear]]
+[[Complexidade Quadrática O(n²)]]
