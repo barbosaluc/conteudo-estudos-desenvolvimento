@@ -28,3 +28,9 @@ Em ambientes de microsserviços e alta concorrência, o $O(n^2)$ costuma se disf
 A principal estratégia de um arquiteto para eliminar o $O(n^2)$ é o **Trade-off de Espaço por Tempo**, geralmente trocando um dos loops por uma estrutura de dados de busca instantânea $O(1)$.
 
 - **A Solução com Mapas (Hashing):** Em vez de usar um segundo `for` para procurar um item correspondente em outra lista, você joga a segunda lista dentro de um `HashMap`. Depois, você faz apenas um loop simples $O(n)$ e busca as correspondências no mapa em $O(1)$. O algoritmo despenca de $O(n^2)$ para **$O(n)$**.
+
+#flashcards/algoritmos/On²
+Como funciona a complexidade quadrática $O(n^2)$ ::Ela indica que o tempo de execução de um algoritmo cresce de forma proporcional ao quadrado do tamanho dos dados de entrada (n).
+Ou seja, se dobrar a quantidade dos dados de entrada, o tempo de execução quadruplica.
+<!--SR:!2026-07-05,3,250-->
+

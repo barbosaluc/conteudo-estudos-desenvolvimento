@@ -6,3 +6,14 @@ A complexidade de algoritmos é medida através da Notação Big O. Ela não med
 [[O(n) - Complexidade Linear]]
 [[O(n log n) - Complexidade Quasilinear]]
 [[Complexidade Quadrática O(n²)]]
+
+#### 2. Complexidade de Tempo vs Espaço
+Um bom arquiteto avalia dois custos:
+1. Time Complexity: Quão rápido o algortimo roda.
+2. Space Complexity: Quanta memória RAM ou armazenamento o algoritmo consome durante a execução.
+   - Trade-off: Ás vezes, usamos mais memória (cache) para ganhar velocidade (tempo).
+Na prática, sempre que escrever um método que manipula listas ou coleções, pergunte-se:
+Qual é o Big O disso?
+- Se for loop simples: O(n).
+- Se for um loop dentro de outro: O(n²).
+- Se estiver usando um mapa/dicionário para busca: O(1).

@@ -1,3 +1,4 @@
+#conceitos-de-bd 
 Pense no índice remissivo que fica no final de um livro.
 
 Se você quiser encontrar todas as páginas do livro que mencionam "chocolate", você não folheia o livro inteiro página por página (isso seria o `LIKE` ou um _Full Table Scan_). Você vai direto na letra **C** no final do livro, acha a palavra "chocolate" e vê a lista de páginas: _págs. 45, 67, 120_.
@@ -44,3 +45,7 @@ Quando um usuário digita na barra de pesquisa: **"café em grãos"**, o motor d
 O banco de dados sabe instantaneamente que **apenas o Doc 1** possui as duas palavras, sem precisar ler nenhuma linha de texto das tabelas. Ele buscou direto em estruturas de memória otimizadas (geralmente em  [[Árvores de decisão (B-Trees e Índices)]] ou estruturas de dados baseadas em FST).
 
 É por isso que, não importa se você tem 100 ou 100 milhões de documentos, o tempo para encontrar o termo no índice invertido é praticamente o mesmo (complexidade próxima de [[O(1) - Complexidade Constante]] ou [[O(log n) - Complexidade Logarítmica]]).
+
+#flashcards/banco-de-dados/índice-invertido
+O que é um índice invertido?:: Estrutura que permite mapear palavras ou termos aproximados, facilitando a busca.
+<!--SR:!2026-07-04,3,250-->
