@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5732c536559b7dd4",
+        "id": "3ac7b62730f13c35",
         "type": "tabs",
         "children": [
           {
-            "id": "3140a23ab06bc22f",
+            "id": "5c5288be6771dc22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BackEnd/Java/_Glossário de estudos Java.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_Glossário de estudos Java"
-            }
-          },
-          {
-            "id": "8cd4acbb9edaae38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BackEnd/Java/Conceitos gerais de controle de fluxo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Conceitos gerais de controle de fluxo"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#f",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -220,10 +201,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f3be64123c0abfc",
+  "active": "5c5288be6771dc22",
   "lastOpenFiles": [
-    "BackEnd/Java/_Glossário de estudos Java.md",
+    "Banco de dados/CDC - Change Data Capture.md",
+    "Banco de dados/Wal - Write-Ahead Logging.md",
+    "Banco de dados/Elasticsearch - Banco de dados.md",
+    "Banco de dados/Índice Investido.md",
     "BackEnd/Java/Conceitos gerais de controle de fluxo.md",
+    "BackEnd/Java/_Glossário de estudos Java.md",
     "BackEnd/Java/Conceitos de gerais de programação POO.md",
     "Arquitetura de software/_Glossário de estudos.md",
     "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
@@ -231,7 +216,6 @@
     "Arquitetura de software/Complexidade Quadrática O(n²).md",
     "Arquitetura de software/Insertion Sort.md",
     "Arquitetura de software/Bubble Sort.md",
-    "Banco de dados/Índice Investido.md",
     "Banco de dados/Full Text Search - Busca Textual Completa.md",
     "Excalidraw/Drawing 2026-07-01 12.10.14.excalidraw.md",
     "BackEnd/Java/3.1 Tipos de Dados e Variáveis.md",
@@ -247,9 +231,6 @@
     "BackEnd/Java",
     "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
     "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
-    "Arquitetura de software/O(n) - Complexidade Linear.md",
-    "Arquitetura de software/O(1) - Complexidade Constante.md",
-    "Arquitetura de software/O(log n) - Complexidade Logarítmica.md",
     "Excalidraw",
     "Nova pasta",
     "Computação em nuvem",

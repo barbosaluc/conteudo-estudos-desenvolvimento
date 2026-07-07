@@ -31,6 +31,7 @@ A principal estratégia de um arquiteto para eliminar o $O(n^2)$ é o **Trade-of
 
 #flashcards/algoritmos/On²
 Como funciona a complexidade quadrática $O(n^2)$ ::Ela indica que o tempo de execução de um algoritmo cresce de forma proporcional ao quadrado do tamanho dos dados de entrada (n).
+<!--SR:!2026-07-09,2,230-->
 Ou seja, se dobrar a quantidade dos dados de entrada, o tempo de execução quadruplica.
 <!--SR:!2026-07-05,3,250-->
 
