@@ -4,20 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "3ac7b62730f13c35",
+        "id": "66a18fa8da1a19cd",
         "type": "tabs",
         "children": [
           {
-            "id": "5c5288be6771dc22",
+            "id": "1af485f321827d70",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Algoritmos de Ordenação e Busca"
+            }
+          },
+          {
+            "id": "1e179a870d34ea03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Merge Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Merge Sort"
+            }
+          },
+          {
+            "id": "513c665ed8a80390",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Quick Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quick Sort"
+            }
+          },
+          {
+            "id": "b15419cce459656a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Merge Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Merge Sort"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 263.5
   },
   "right": {
     "id": "ea556bcfc0e103b1",
@@ -179,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -201,23 +248,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c5288be6771dc22",
+  "active": "7f3be64123c0abfc",
   "lastOpenFiles": [
-    "Banco de dados/CDC - Change Data Capture.md",
+    "Arquitetura de software/Merge Sort.md",
+    "Arquitetura de software/Quick Sort.md",
+    "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
+    "Arquitetura de software/_Glossário de estudos.md",
+    "Arquitetura de software/Insertion Sort.md",
+    "Arquitetura de software/O(n²) - Complexidade Quadrática.md",
+    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
+    "Arquitetura de software/Bubble Sort.md",
     "Banco de dados/Wal - Write-Ahead Logging.md",
+    "Banco de dados/CDC - Change Data Capture.md",
+    "Excalidraw/Drawing 2026-07-07 17.37.18.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-01 12.10.14.excalidraw.md",
     "Banco de dados/Elasticsearch - Banco de dados.md",
     "Banco de dados/Índice Investido.md",
     "BackEnd/Java/Conceitos gerais de controle de fluxo.md",
     "BackEnd/Java/_Glossário de estudos Java.md",
     "BackEnd/Java/Conceitos de gerais de programação POO.md",
-    "Arquitetura de software/_Glossário de estudos.md",
     "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
-    "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
-    "Arquitetura de software/Complexidade Quadrática O(n²).md",
-    "Arquitetura de software/Insertion Sort.md",
-    "Arquitetura de software/Bubble Sort.md",
     "Banco de dados/Full Text Search - Busca Textual Completa.md",
-    "Excalidraw/Drawing 2026-07-01 12.10.14.excalidraw.md",
     "BackEnd/Java/3.1 Tipos de Dados e Variáveis.md",
     "BackEnd/Java/2.1 Conceitos gerais.md",
     "2.2 Objeto – Instância de uma classe..md",
@@ -225,12 +276,8 @@
     "BackEnd/Java/1.5 Garbage Collector.md",
     "BackEnd/Java/1.4 Bytecode.md",
     "BackEnd/Java/1.3 JRE (Java Runtime Environment).md",
-    "BackEnd/Java/1.2 JDK (Java Development Kit).md",
-    "BackEnd/Java/1.1 JVM (Java virtual Machine).md",
     "Sem título",
     "BackEnd/Java",
-    "Arquitetura de software/Árvores de decisão (B-Trees e Índices).md",
-    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
     "Excalidraw",
     "Nova pasta",
     "Computação em nuvem",

@@ -48,4 +48,4 @@ O banco de dados sabe instantaneamente que **apenas o Doc 1** possui as duas pal
 
 #flashcards/banco-de-dados/índice-invertido
 O que é um índice invertido?::É uma estrutura de dados, utilizados por motores de busca, como o Google para realizar pesquisar de texto completo de forma extremamente rápida.
-<!--SR:!2026-07-09,2,230-->
+<!--SR:!2026-07-14,1,210-->

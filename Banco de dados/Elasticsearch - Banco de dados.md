@@ -32,4 +32,4 @@ Raramente o Elasticsearch é usado sozinho. Ele costuma fazer parte do que chama
 
 #flashcards/banco-de-dados/elasticsearch
 O que é e como funciona o Elasticsearch::É um motor de busca e análise de dados distribuídos, projetado para armazenar, buscar e análisar grandes volumes de dados em tempo real. Diferente de banco de dados tradicionais, ele armazena os dados em JSON e é orientado a documentos (NoSQL). Toda a comunicação é feita por requisições HTTP, o que o torna compatível com quase todas as aplicações.
-<!--SR:!2026-07-10,3,250-->
+<!--SR:!2026-07-15,2,230-->

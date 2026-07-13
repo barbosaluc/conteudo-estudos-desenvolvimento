@@ -5,7 +5,7 @@ A complexidade de algoritmos é medida através da Notação Big O. Ela não med
 [[O(log n) - Complexidade Logarítmica]]
 [[O(n) - Complexidade Linear]]
 [[O(n log n) - Complexidade Quasilinear]]
-[[Complexidade Quadrática O(n²)]]
+[[O(n²) - Complexidade Quadrática]]
 
 #### 2. Complexidade de Tempo vs Espaço
 Um bom arquiteto avalia dois custos:
