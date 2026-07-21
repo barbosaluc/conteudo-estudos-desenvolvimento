@@ -29,4 +29,5 @@ Impacto na prática: Para ordenar 1 milhão de pedidos, o algoritmo ruim faz 1 t
 - <font color="#ff0000">Algortimos de Grafos Complexos</font> : Vários algoritmos que calculam caminhos ou conexões precisam ordenar as arestas/pesos antes de começar, adotando essa complexidade na sua primeira fase.
 
 #flashcards/algoritmos/O-n-log-n
-Como funciona o algoritmo de complexidade quasilinear O(n log n)?::O termo quasilinear existe porque o termo multiplica uma força linear (n) por uma força logaritmica (log n), na prática, o (log n) quebra o problema original (uma lista) repetidas vezes até ter vários pedaços minúsculos.           O (n) o algoritmo passa por esses pedaços para combiná-los novamente de forma ordenada. 
+Como funciona o algoritmo de complexidade quasilinear O(n log n)?::O termo quasilinear existe porque o termo multiplica uma força linear (n) por uma força logaritmica (log n), na prática, o (log n) quebra o problema original (uma lista) repetidas vezes até ter vários pedaços minúsculos.           O (n) o algoritmo passa por esses pedaços para combiná-los novamente de forma ordenada.
+<!--SR:!2026-07-21,1,230-->

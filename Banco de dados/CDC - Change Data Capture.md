@@ -42,4 +42,4 @@ Todo banco de dados (PostgreSQL, MySQL, Oracle, SQL Server) possui um log de tra
 
 #flashcards/banco-de-dados/CDC
 O que é o CDC:: CDC - Change Data Capture (Captura de Mudanças de Dados) utilizado para identifica Inserts, updates e Deletes, e notificar outros sistemas sobre essas alterações em tempo real. A melhor forma de implementar é fazer a leitura dos <font color="#de7802">logs internos dos bancos de dados</font> que registram tudo, antes mesmo de gravar os dados no disco. Todos os bancos de dados possuem esse log.
-<!--SR:!2026-07-15,2,230-->
+<!--SR:!2026-07-21,1,210-->

@@ -41,5 +41,6 @@ Para evitar o cenário catastrófico de $O(n^2)$ em ambientes de produção, os 
 
 #flashcards/algoritmos-de-ordenação/quick-sort  
 Como funciona o Algoritmo Quick Sort?::O algoritmo do quick sort escolhe o pivô, que pode ser o qualquer elemento da lista, e reorganiza o array da seguinte forma, o elemento que for maior que o pivô vai para o lado direito e o elemento que for menor vai para o lado esquerdo. O algoritmo então se divide em dois, repete o processo para o array da esquerda e para o array da direita, e vai repetindo o processo para sub-arrays até está completamente ordenado. Seu melhor e médio caso é O(n log n) e seu pior caso é O(n²).
+<!--SR:!2026-07-22,2,230-->
 
 [^1]: algo que está muito próximo, adjacente, imediatamente ao lado ou encostado, sem que haja qualquer espaço, interrupção ou intermediário entre as partes.

@@ -47,7 +47,8 @@ O Merge Sort é o algoritmo ideal para **External Sorting** (Ordenação Externa
 
 Se o seu sistema precisa ordenar um arquivo de Log ou uma tabela de banco de dados de **100 GB**, mas o seu servidor só tem **8 GB de memória RAM**, você não pode carregar tudo na memória.
 
-Você pode usar o Merge Sort para quebrar esse arquivo gigante em arquivos menores de 4 GB, ordenar cada um na memória (usando Quick Sort, por exemplo) e depois usar a lógica de _Merge_ do Merge Sort para ler o início de cada arquivo em disco e ir cuspindo o resultado final ordenado diretamente para um arquivo de saída, consumindo pouquíssima RAM durante a junção.
+Você pode usar o Merge Sort para quebrar esse arquivo gigante em arquivos menores de 4 GB, ordenar cada um na memória (usando [[Quick Sort]], por exemplo) e depois usar a lógica de _Merge_ do Merge Sort para ler o início de cada arquivo em disco e ir cuspindo o resultado final ordenado diretamente para um arquivo de saída, consumindo pouquíssima RAM durante a junção.
 
 #flashcards/algoritmos-de-ordenação/merge-sort 
 Como funciona o algoritmo de ordenação Merge Sort?::O algoritmo quebra um array em vários sub-arrays até que contenham apenas 1 elemento em cada sub-array e depois faz o Merge, juntando e comparando cada elemento unitário de dois em dois já os posicionando de forma ordenada. E vai subindo essa estrutura até que tenha apenas um array totalmente ordenado. Seu melhor e pior caso possuem a mesma complexidade de tempo: **$O(n \log n)$**.
+<!--SR:!2026-07-22,2,230-->
