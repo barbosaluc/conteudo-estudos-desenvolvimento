@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16c1d7e0839fbfb3",
+        "id": "a4971f6bdddff1fd",
         "type": "tabs",
         "children": [
           {
-            "id": "c1129ca26da4f305",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura de software/Load Balancer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Load Balancer"
-            }
-          },
-          {
-            "id": "238020944a16024b",
+            "id": "c8c7bbdcf8885d85",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -31,8 +17,7 @@
               "title": "Visualização em gráfico"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#flashcards/arquitetura-de-software/algoritmo-ordenacao/Timsort",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -216,18 +201,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "238020944a16024b",
+  "active": "c8c7bbdcf8885d85",
   "lastOpenFiles": [
+    "Arquitetura de software/algoritmos de ordenação/Tim Sort.md",
+    "Arquitetura de software/algoritmos",
+    "Arquitetura de software/algoritmos de ordenação",
+    "Arquitetura de software/algoritmos de ordenação/Insertion Sort.md",
+    "Redes/TCP - Transmission Control Protocol.md",
+    "Redes/UDP - User Datagram Protocol.md",
+    "Redes",
     "Arquitetura de software/Load Balancer.md",
+    "Arquitetura de software/SSE (Server-Sent Events).md",
+    "Arquitetura de software/Polling.md",
     "Arquitetura de software/Websocket.md",
-    "Arquitetura de software/Merge Sort.md",
+    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
+    "Arquitetura de software/algoritmos/O(n log n) - Complexidade Quasilinear.md",
+    "Arquitetura de software/algoritmos/O(n²) - Complexidade Quadrática.md",
+    "Arquitetura de software/algoritmos de ordenação/Merge Sort.md",
     "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
-    "Arquitetura de software/Quick Sort.md",
+    "Arquitetura de software/algoritmos de ordenação/Quick Sort.md",
     "Arquitetura de software/_Glossário de estudos.md",
-    "Arquitetura de software/Insertion Sort.md",
-    "Arquitetura de software/O(n²) - Complexidade Quadrática.md",
-    "Arquitetura de software/O(n log n) - Complexidade Quasilinear.md",
-    "Arquitetura de software/Bubble Sort.md",
+    "Arquitetura de software/algoritmos de ordenação/Bubble Sort.md",
     "Banco de dados/Wal - Write-Ahead Logging.md",
     "Banco de dados/CDC - Change Data Capture.md",
     "Excalidraw/Drawing 2026-07-07 17.37.18.excalidraw.md",
@@ -237,22 +231,12 @@
     "BackEnd/Java/Conceitos gerais de controle de fluxo.md",
     "BackEnd/Java/_Glossário de estudos Java.md",
     "BackEnd/Java/Conceitos de gerais de programação POO.md",
-    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
-    "Banco de dados/Full Text Search - Busca Textual Completa.md",
-    "BackEnd/Java/3.1 Tipos de Dados e Variáveis.md",
-    "BackEnd/Java/2.1 Conceitos gerais.md",
-    "2.2 Objeto – Instância de uma classe..md",
-    "BackEnd/Java/1.6 JDBC - Java Database Connectivity.md",
-    "BackEnd/Java/1.5 Garbage Collector.md",
-    "Sem título",
     "BackEnd/Java",
     "Excalidraw",
     "Nova pasta",
     "Computação em nuvem",
     "Arquitetura de software",
     "Mensageria",
-    "Banco de dados",
-    "Microserviços",
-    "FrontEnd"
+    "Banco de dados"
   ]
 }

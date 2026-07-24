@@ -1,4 +1,4 @@
-#Algoritmos #arquitetura 
+#Algoritmos #arquitetura-de-software  
 A **Complexidade Quadrática $O(n^2)$** representa o pior cenário de performance aceitável no dia a dia do desenvolvimento. Ela indica que o tempo de execução de um algoritmo cresce de forma **proporcional ao quadrado** do tamanho dos dados de entrada ($n$).
 
 Se você dobrar a quantidade de dados, o tempo de execução não dobra, ele quadruplica. Se o volume de dados aumentar 10 vezes, o esforço do sistema aumenta 100 vezes.
@@ -18,20 +18,18 @@ for (int i = 0; i < n; i++) {
 
 Em ambientes de microsserviços e alta concorrência, o $O(n^2)$ costuma se disfarçar e causar estragos graves:
 
-- **O problema do "N+1 Queries" (ORMs):** Quando seu código faz uma busca para listar 100 pedidos ($O(n)$) e, dentro de um loop, faz uma nova chamada ao banco para buscar os itens de cada um desses pedidos. Você acabou de criar um comportamento quadrático de rede e I/O.
+- <font color="#de7802"><font color="#de7802"><font color="#de7802">O problema do "N+1 </font>Queries" (ORMs)</font></font>: Quando seu código faz uma busca para listar 100 pedidos ($O(n)$) e, dentro de um loop, faz uma nova chamada ao banco para buscar os itens de cada um desses pedidos. Você acabou de criar um comportamento quadrático de rede e I/O.
     
-- **Nested Loops Joins (SQL):** Se você tentar fazer um `JOIN` entre duas tabelas grandes e nenhuma delas tiver índices nas colunas de ligação, o banco de dados será forçado a comparar cada linha da primeira tabela com todas as linhas da segunda tabela.
-    
+- <font color="#de7802">Nested Loops Joins (SQL):</font> Se você tentar fazer um `JOIN` entre duas tabelas grandes e nenhuma delas tiver índices nas colunas de ligação, o banco de dados será forçado a comparar cada linha da primeira tabela com todas as linhas da segunda tabela.
 
 ## 3. Como Corrigir ou Evitar o $O(n^2)$?
 
 A principal estratégia de um arquiteto para eliminar o $O(n^2)$ é o **Trade-off de Espaço por Tempo**, geralmente trocando um dos loops por uma estrutura de dados de busca instantânea $O(1)$.
 
-- **A Solução com Mapas (Hashing):** Em vez de usar um segundo `for` para procurar um item correspondente em outra lista, você joga a segunda lista dentro de um `HashMap`. Depois, você faz apenas um loop simples $O(n)$ e busca as correspondências no mapa em $O(1)$. O algoritmo despenca de $O(n^2)$ para **$O(n)$**.
+- <font color="#de7802">A Solução com Mapas (Hashing)</font>: Em vez de usar um segundo `for` para procurar um item correspondente em outra lista, você joga a segunda lista dentro de um `HashMap`. Depois, você faz apenas um loop simples $O(n)$ e busca as correspondências no mapa em $O(1)$. O algoritmo despenca de $O(n^2)$ para **$O(n)$**.
 
 #flashcards/algoritmos/On²
-Como funciona a complexidade quadrática $O(n^2)$ ::Ela indica que o tempo de execução de um algoritmo cresce de forma proporcional ao quadrado do tamanho dos dados de entrada (n).
-<!--SR:!2026-07-23,3,210-->
-Ou seja, se dobrar a quantidade dos dados de entrada, o tempo de execução quadruplica.
-<!--SR:!2026-07-05,3,250-->
+Como funciona a complexidade quadrática $O(n^2)$ ::Ela indica que o tempo de execução de um algoritmo cresce de forma proporcional ao quadrado do tamanho dos dados de entrada (n). Ou seja, se dobrar a quantidade dos dados de entrada, o tempo de execução quadruplica. O seu cenário mais clássico e for dentro de outro for. Para cada item da lista ele percorre a lista novamente.
+<!--SR:!2026-07-27,3,250-->
+
 

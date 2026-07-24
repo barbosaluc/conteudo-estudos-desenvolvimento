@@ -10,11 +10,11 @@ O termo existe porque o algoritmo multiplica uma força linear (n) por uma forç
 - O n (conquistar/juntar): O algoritmo passa por esses pedaços para combiná-los novamente de forma ordenada.
 #### 1. O Exemplo clássico: Ordenação Avançada
 
-Se você usar o método nativa de ordenação, como no java <font color="#ff0000">Collections.sort()</font> , por baixo dos panos eles utilizam algoritmos como o <font color="#ff0000">Merge Sort</font>, <font color="#ff0000">Quick Sort</font> ou <font color="#ff0000">TimSort. </font> 
+Se você usar o método nativa de ordenação, como no java <font color="#ff0000">Collections.sort()</font> , por baixo dos panos eles utilizam algoritmos como o [[Merge Sort]], [[Quick Sort]] ou [[Tim Sort]].
 Todos ele operam em O (n log n).
 #### 2. A diferença contra o O(n²)
 
-Antigamente, algoritmos iniciantes de ordenação como o <font color="#f79646">Bubble Sort</font> varriam a lista com um `FOR` dentro de outro O(n²). Veja quando o volume de dados do sistema cresce:
+Antigamente, algoritmos iniciantes de ordenação como o [[Bubble Sort]] varriam a lista com um `FOR` dentro de outro O(n²). Veja quando o volume de dados do sistema cresce:
 
 | <font color="#f79646">Elementos (n</font>) | <font color="#f79646">Quadrático O(n²) - ruim</font> | <font color="#f79646">Quasilinear O(n log n) -bom</font> |
 | ------------------------------------------ | ---------------------------------------------------- | -------------------------------------------------------- |
@@ -30,4 +30,4 @@ Impacto na prática: Para ordenar 1 milhão de pedidos, o algoritmo ruim faz 1 t
 
 #flashcards/algoritmos/O-n-log-n
 Como funciona o algoritmo de complexidade quasilinear O(n log n)?::O termo quasilinear existe porque o termo multiplica uma força linear (n) por uma força logaritmica (log n), na prática, o (log n) quebra o problema original (uma lista) repetidas vezes até ter vários pedaços minúsculos.           O (n) o algoritmo passa por esses pedaços para combiná-los novamente de forma ordenada.
-<!--SR:!2026-07-21,1,230-->
+<!--SR:!2026-07-29,5,230-->

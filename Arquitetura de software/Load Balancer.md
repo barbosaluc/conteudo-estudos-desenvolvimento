@@ -25,7 +25,7 @@ Ele toma decisões de roteamento **inspecionando o conteúdo da requisição HTT
 
 - <font color="#de7802">Round Robin:</font> Distribui as requisições em ordem sequencial simples (Servidor 1 $\rightarrow$ Servidor 2 $\rightarrow$ Servidor 3 $\rightarrow$ Servidor 1...).
 - <font color="#de7802">Weighted Round Robin:</font> Atribui "pesos" aos servidores. Máquinas mais potentes recebem uma proporção maior de requisições.
-- <font color="#de7802">Least Connections (Menos Conexões):</font> Envia a nova requisição para o servidor que tem o menor número de conexões ativas no momento. _(Ideal para requisições com tempos de processamento muito variados, como requisições longas de polling ou WebSockets)._
+- <font color="#de7802">Least Connections (Menos Conexões):</font> Envia a nova requisição para o servidor que tem o menor número de conexões ativas no momento. _(Ideal para requisições com tempos de processamento muito variados, como requisições longas de [[Polling]] ou [[Websocket]])._
 - <font color="#de7802">IP Hash</font>:Aplica um algoritmo de _hash_ no endereço IP do cliente para garantir que um determinado usuário sempre caia no mesmo servidor (útil para sistemas _stateful_).
 ### Health checks (verificações de saúde)
 Um Load Balancer não apenas distribui tráfego; ele monitora constantemente os servidores de backend.  
@@ -34,9 +34,10 @@ Periodicamente, ele faz pings ou requisições HTTP (ex: `GET /health`) para cad
 - Se um servidor responder com erro (ex: `500 Internal Server Error`) ou der _timeout_, o Load Balancer **o remove automaticamente do pool**.
 - Assim que o servidor se recupera e volta a responder `200 OK`, o balanceador **volta a enviar tráfego para ele**.
 ### Resumo Arquitetural: Onde tudo se conecta
-Conectando aos tópicos  (Polling, SSE e WebSockets):
+Conectando aos tópicos  ([[Polling]], [[SSE (Server-Sent Events)]] e [[Websocket]]):
 - Se você estiver usando **WebSockets** ou **Long Polling**, você precisará configurar o Load Balancer para suportar **conexões de longa duração** (ajustar timeouts de keep-alive) e, no caso de Layer 7, garantir que ele suporte o cabeçalho `Upgrade: websocket`.
 - Para lidar com a escala de milhares de conexões WebSockets/SSE presas ao Load Balancer, costuma-se usar um mecanismo de **Pub/Sub (como Redis ou Apache Kafka)** no backend para sincronizar as mensagens entre as diferentes instâncias de aplicação que estão atrás do Load Balancer.
 
 #flashcards/arquitetura-de-software/load-balancer
-Para que serve o Load Balancer?::É um componente de software que atua como um ponto único de entrada (Reverse Proxy) para um sistema, distribuindo um trafego de rede ou de aplicação entre múltiplos servidores no back-end. Usado para Escalabilidade Horizontal, alta disponibilidade, performance e resiliência.
+Para que serve o Load Balancer?::É um componente de software que atua como um ponto único de entrada (Reverse Proxy) para um sistema, distribuindo um trafego de rede ou de aplicação entre múltiplos servidores no back-end. Usado para Escalabilidade Horizontal, alta disponibilidade, performance e resiliência. As duas principais camadas do Load Balancer: <font color="#de7802">Layer 4</font>, opera no nível de rede e transporte, não ler requisições HTTP. O <font color="#de7802">Layer 7</font>, ele toma decisões de roteamento inspecionando os cabeçallhos HTTP/HTTPS. 
+<!--SR:!2026-07-31,7,250-->

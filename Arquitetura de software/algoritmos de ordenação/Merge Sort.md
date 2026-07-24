@@ -51,4 +51,4 @@ Você pode usar o Merge Sort para quebrar esse arquivo gigante em arquivos menor
 
 #flashcards/algoritmos-de-ordenação/merge-sort 
 Como funciona o algoritmo de ordenação Merge Sort?::O algoritmo quebra um array em vários sub-arrays até que contenham apenas 1 elemento em cada sub-array e depois faz o Merge, juntando e comparando cada elemento unitário de dois em dois já os posicionando de forma ordenada. E vai subindo essa estrutura até que tenha apenas um array totalmente ordenado. Seu melhor e pior caso possuem a mesma complexidade de tempo: **$O(n \log n)$**.
-<!--SR:!2026-07-22,2,230-->
+<!--SR:!2026-07-29,5,230-->

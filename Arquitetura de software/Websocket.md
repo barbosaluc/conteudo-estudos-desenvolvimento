@@ -24,7 +24,7 @@ A partir deste momento, o protocolo HTTP é "abandonado". A conexão TCP subjace
 ### Principais Características Arquiteturais
 - <font color="#de7802">Bidirecionalidade (Full-Duplex):</font> Ambos os lados enviam e recebem dados de forma assíncrona a qualquer momento.
 - <font color="#de7802">Baixa Latência e Overhead Mínimo</font>: HTTP tradicionais exigem que centenas de bytes de cabeçalhos (<font color="#ff0000">User-Agent</font>, <font color="#ff0000">Cookies</font>, etc.) sejam enviados a cada chamada. No WebSocket, após o _handshake_, a troca de dados utiliza _frames_ com cabeçalhos mínimos (de apenas 2 a 10 bytes).
-- <font color="#de7802">Suporte a texto binário:</font> Diferente do SSE (que só envia texto), o WebSocket nativamente envia dados em texto (como JSON) e arquivos/buffers binários (<font color="#ff0000">ArrayBuffer, Blob</font>).
+- <font color="#de7802">Suporte a texto binário:</font> Diferente do [[SSE (Server-Sent Events)]] (que só envia texto), o WebSocket nativamente envia dados em texto (como JSON) e arquivos/buffers binários (<font color="#ff0000">ArrayBuffer, Blob</font>).
 ### Quando usar?
 O WebSocket é a escolha arquitetural ideal quando a interatividade bidirecional e a baixíssima latência são cruciais:
 1. <font color="#de7802">Aplicações de Chat e Mensageria:</font> Onde ambos os lados enviam e recebem mensagens constantemente (ex: WhatsApp Web, Slack).
@@ -33,8 +33,9 @@ O WebSocket é a escolha arquitetural ideal quando a interatividade bidirecional
 4. <font color="#de7802">Plataformas de Trading / Financial Markets:</font> Transmissão bidirecional de ordens de compra/venda e atualizações instantâneas de cotações em tempo real.
 ### Desafios de Arquitetura ao adotar WebSockets
 Ao projetar sistemas com WebSockets, considere:
-- <font color="#de7802">Escalabilidade (Stateful)</font>: Como a conexão TCP é persistente, o servidor precisa manter o estado na memória. Se você tiver múltiplos nós atrás de um _Load Balancer_, precisará de uma camada de mensageria Pub/Sub (como Redis ou Apache Kafka) para rotear as mensagens entre as instâncias dos servidores.
+- <font color="#de7802">Escalabilidade (Stateful)</font>: Como a conexão TCP é persistente, o servidor precisa manter o estado na memória. Se você tiver múltiplos nós atrás de um [[Load Balancer]] precisará de uma camada de mensageria Pub/Sub (como Redis ou Apache Kafka) para rotear as mensagens entre as instâncias dos servidores.
 - <font color="#de7802">Firewalls e Proxies:</font> Certos ambientes corporativos bloqueiam conexões longas que não sejam HTTP puro, exigindo o uso de `wss://` (TLS) para evitar bloqueios no nível da rede.
 
 #flashcards/arquitetura-de-software/websocket
-Para que serve o websocket::É um protocolo de comunicação bidirecional e full-duplex sobre uma única conexão TPC de longa duração.  Em outras palavras, enquanto no HTTP tradicional o cliente precisa "bater na porta" do servidor toda vez que quer uma informação nova, no Websocket a porta fica aberta o tempo todo e ambos podem conversar instantaneamente.
+Para que serve o websocket?::É um protocolo de comunicação bidirecional e full-duplex sobre uma única conexão TPC de longa duração.  Em outras palavras, enquanto no HTTP tradicional o cliente precisa "bater na porta" do servidor toda vez que quer uma informação nova, no Websocket a porta fica aberta o tempo todo e ambos podem conversar instantaneamente.
+<!--SR:!2026-08-01,8,250-->

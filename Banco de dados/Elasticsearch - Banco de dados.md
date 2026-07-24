@@ -31,5 +31,5 @@ Raramente o Elasticsearch é usado sozinho. Ele costuma fazer parte do que chama
 - **K**ibana: A interface visual. Uma ferramenta web para criar gráficos, dashboards e navegar nos dados que estão dentro do Elasticsearch.
 
 #flashcards/banco-de-dados/elasticsearch
-O que é e como funciona o Elasticsearch::É um motor de busca e análise de dados distribuídos, projetado para armazenar, buscar e análisar grandes volumes de dados em tempo real. Diferente de banco de dados tradicionais, ele armazena os dados em JSON e é orientado a documentos (NoSQL). Toda a comunicação é feita por requisições HTTP, o que o torna compatível com quase todas as aplicações.
-<!--SR:!2026-07-21,1,210-->
+O que é e como funciona o Elasticsearch?::É um motor de busca e análise de dados distribuídos, projetado para armazenar, buscar e análisar grandes volumes de dados em tempo real. Diferente de banco de dados tradicionais, ele armazena os dados em JSON e é orientado a documentos (NoSQL). Toda a comunicação é feita por requisições HTTP, o que o torna compatível com quase todas as aplicações.
+<!--SR:!2026-07-25,1,190-->
