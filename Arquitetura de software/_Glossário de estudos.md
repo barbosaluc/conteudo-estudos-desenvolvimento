@@ -5,3 +5,8 @@ Sequência finita de passos bem definidos para resolver um problema ou executar 
  Exemplo: o algoritmo de busca binária divide uma lista ordenada ao meio repetidamente para encontrar um valor em O(log n) operações, muito mais eficiente que uma busca linear.
 [[Complexidade de Algoritmos (O alicerce)]]
 [[Algoritmos de Ordenação e Busca]]
+## 2.0 Intermediário
+#### 2.1 Design Patterns
+#### [[Criacionais (como criar objetos)]]
+#### [[Estruturais (como compor objetos)]]
+#### [[Comportamentais (como objetos interagem)]]

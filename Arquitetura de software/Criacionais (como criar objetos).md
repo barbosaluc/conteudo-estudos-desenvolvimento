@@ -1,0 +1,5 @@
+[[Factory Method]]
+[[Abstract Factory]]
+[[Builder]]
+[[Singleton]]
+[[Prototype]]

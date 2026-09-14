@@ -41,7 +41,7 @@ Durante a fase de intercalação (_merge_ de dois _runs_, $A$ e $B$), se o algor
 |    Pior Caso    |     $O(N \log N)$     |        Mantém a garantia de desempenho do Merge Sort.         |
 | Espaço Auxiliar |        $O(N)$         |  Necessita de memória extra temporária para a intercalação.   |
 
-#flashcards/arquitetura-de-software/algoritmo-ordenacao/timsort 
+#flashcards/arquitetura-de-software/algoritmo-ordenacao/timsort
 Como funciona o algoritmo Timsort?
 ?
 É um algoritmo de ordenação híbrido (Merge sort + Insertion Sort) padrão em liguagens com Python e Java.
@@ -57,3 +57,4 @@ Média / pior caso: O(n log n).
 Espaço:  O(n).
 **Diferencial Arquitetural**
 Projetado para dados do mundo real, que raramente são aleatórios e costumam conter sequências parcialmente ordenadas.
+<!--SR:!2026-07-25,1,230-->

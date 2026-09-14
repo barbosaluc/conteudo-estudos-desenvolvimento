@@ -47,5 +47,5 @@ O banco de dados sabe instantaneamente que **apenas o Doc 1** possui as duas pal
 É por isso que, não importa se você tem 100 ou 100 milhões de documentos, o tempo para encontrar o termo no índice invertido é praticamente o mesmo (complexidade próxima de [[O(1) - Complexidade Constante]] ou [[O(log n) - Complexidade Logarítmica]]).
 
 #flashcards/banco-de-dados/índice-invertido
-O que é um índice invertido?::É uma estrutura de dados, utilizados por motores de busca, como o Google para realizar pesquisar de texto completo de forma extremamente rápida.
-<!--SR:!2026-07-25,1,170-->
+O que é um índice invertido?::É uma estrutura de dados, utilizados por motores de busca, como o Google para realizar pesquisar de texto complexos de forma extremamente rápida.
+<!--SR:!2026-08-02,2,170-->

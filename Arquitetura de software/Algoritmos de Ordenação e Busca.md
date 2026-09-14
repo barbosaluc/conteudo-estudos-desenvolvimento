@@ -16,4 +16,4 @@ Os sistemas modernos raramente usam os algoritmos acima de forma "pura". Eles ut
 - [[IntroSort (Introductory Sort)]]
 ##### D. Algoritmos de Propósito Específico (Tempo Linear)
 Existem algoritmos que quebram a barreira de $O(n \log n)$ e conseguem ordenar em tempo linear $O(n)$, mas com uma condição: eles não são algoritmos de comparação.
-- [[Counting Sort / Radix Sort]]
+- [[Counting Sort - Radix Sort]]

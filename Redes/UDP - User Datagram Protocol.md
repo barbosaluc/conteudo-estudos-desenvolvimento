@@ -1,3 +1,4 @@
+#flashcards/redes/protocolos/UDP 
 É um protocolo de camada de transporte do modelo TCP/IP.
 O UDP é um protocolo <font color="#de7802">não orientado à conexão e extremamente leve</font>. Ele simplesmente pega os dados e os dispara para o destino, sem se preocupar se chegaram, se foram perdidos ou se estão na ordem certa. Sua prioridade é a velocidade.
 ### Principais características
@@ -14,3 +15,4 @@ O UDP é ideal para cenários onde a velocidade em tempo real é mais importante
 
 #flashcards/redes/UDP
 Como funciona o protocolo UDP?:: É um protocolo de camada de transporte TCP/IP, não orientado à conexão e extremamente leve. Ele simplesmente pega os dados e dispara para o destino, sem se preocupar com perdas, ou se está na ordem certa, sua prioridade é a velocidade.
+<!--SR:!2026-08-08,8,250-->

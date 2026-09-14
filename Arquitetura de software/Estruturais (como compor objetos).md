@@ -1,0 +1,7 @@
+[[Facade]]
+[[Adapter]]
+[[Decorator]]
+[[Proxy]]
+[[Composite]]
+[[Bridge]]
+[[Flyweight]]

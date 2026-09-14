@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a4971f6bdddff1fd",
+        "id": "45de2eff0db6e52d",
         "type": "tabs",
         "children": [
           {
-            "id": "c8c7bbdcf8885d85",
+            "id": "43da64c0cdedf80a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Comportamentais (como objetos interagem).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Comportamentais (como objetos interagem)"
+            }
+          },
+          {
+            "id": "01349f2c287f5ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arquitetura de software/Design Pattern/Strategy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Strategy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -37,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -49,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards/arquitetura-de-software/algoritmo-ordenacao/Timsort",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +86,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -179,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -201,42 +225,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8c7bbdcf8885d85",
+  "active": "01349f2c287f5ce8",
   "lastOpenFiles": [
+    "2026-09-10.md",
+    "Arquitetura de software/Design Pattern/Strategy.md",
+    "Arquitetura de software/Comportamentais (como objetos interagem).md",
+    "Arquitetura de software/Load Balancer.md",
+    "Arquitetura de software/Estruturais (como compor objetos).md",
+    "Arquitetura de software/Criacionais (como criar objetos).md",
+    "Arquitetura de software/_Glossário de estudos.md",
+    "recursão profunda.md",
+    "Certificado TLS.md",
+    "Arquitetura de software/algoritmos de ordenação/IntroSort (Introductory Sort).md",
+    "Arquitetura de software/algoritmos de ordenação/Counting Sort - Radix Sort.md",
+    "Arquitetura de software/Websocket.md",
+    "Arquitetura de software/Design Pattern",
+    "Arquitetura de software/algoritmos/Design Pattern",
+    "Design Patern",
+    "Array.md",
+    "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
+    "Arquitetura de software/algoritmos de ordenação/Heap Sort.md",
+    "Redes/TCP-IP.md",
+    "Banco de dados/Índice Investido.md",
+    "Redes/UDP - User Datagram Protocol.md",
+    "Redes/TCP - Transmission Control Protocol.md",
     "Arquitetura de software/algoritmos de ordenação/Tim Sort.md",
     "Arquitetura de software/algoritmos",
     "Arquitetura de software/algoritmos de ordenação",
     "Arquitetura de software/algoritmos de ordenação/Insertion Sort.md",
-    "Redes/TCP - Transmission Control Protocol.md",
-    "Redes/UDP - User Datagram Protocol.md",
     "Redes",
-    "Arquitetura de software/Load Balancer.md",
     "Arquitetura de software/SSE (Server-Sent Events).md",
     "Arquitetura de software/Polling.md",
-    "Arquitetura de software/Websocket.md",
     "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
     "Arquitetura de software/algoritmos/O(n log n) - Complexidade Quasilinear.md",
     "Arquitetura de software/algoritmos/O(n²) - Complexidade Quadrática.md",
-    "Arquitetura de software/algoritmos de ordenação/Merge Sort.md",
-    "Arquitetura de software/Algoritmos de Ordenação e Busca.md",
-    "Arquitetura de software/algoritmos de ordenação/Quick Sort.md",
-    "Arquitetura de software/_Glossário de estudos.md",
-    "Arquitetura de software/algoritmos de ordenação/Bubble Sort.md",
-    "Banco de dados/Wal - Write-Ahead Logging.md",
-    "Banco de dados/CDC - Change Data Capture.md",
-    "Excalidraw/Drawing 2026-07-07 17.37.18.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-01 12.10.14.excalidraw.md",
-    "Banco de dados/Elasticsearch - Banco de dados.md",
-    "Banco de dados/Índice Investido.md",
-    "BackEnd/Java/Conceitos gerais de controle de fluxo.md",
-    "BackEnd/Java/_Glossário de estudos Java.md",
-    "BackEnd/Java/Conceitos de gerais de programação POO.md",
     "BackEnd/Java",
     "Excalidraw",
     "Nova pasta",
-    "Computação em nuvem",
-    "Arquitetura de software",
-    "Mensageria",
-    "Banco de dados"
+    "Computação em nuvem"
   ]
 }

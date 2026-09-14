@@ -1,0 +1,7 @@
+[[Strategy]]
+[[Observer]]
+[[Command]]
+[[State]]
+[[Template]]
+[[Method]]
+[[Chain of Responsibility]]
