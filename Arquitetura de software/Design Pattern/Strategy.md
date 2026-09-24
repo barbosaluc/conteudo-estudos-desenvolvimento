@@ -32,3 +32,8 @@ Imagine que você precisa ir ao aeroporto. Você pode escolher ir de ônibus, t�
 - <font color="#de7802">Conhecimento pelo cliente</font> : O cliente precisa compreender as diferenças entre as estratégias para conseguir selecionar a mais adequada.
 
 [^1]: Significa que você pode trocar um objeto por outro sem precisar alterar o código da classe que o utiliza.
+
+----
+#flashcards/design-pattern/strategy
+Como funciona o padrão de projeto Strategy?::É um padrão de projeto comportamental cujo objetivo é definir uma família de algoritmos, colocar cada um deles em uma classe separada e tornar seus objetos intercambiáveis.
+<!--SR:!2026-09-19,3,250-->

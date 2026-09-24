@@ -4,39 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "45de2eff0db6e52d",
+        "id": "858179d99446f656",
         "type": "tabs",
         "children": [
           {
-            "id": "43da64c0cdedf80a",
+            "id": "1cf9b88038952c10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/Comportamentais (como objetos interagem).md",
+                "file": "Computação em nuvem/_Glossário de Cloud Computing — Básico ao Avançado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comportamentais (como objetos interagem)"
+              "title": "_Glossário de Cloud Computing — Básico ao Avançado"
             }
           },
           {
-            "id": "01349f2c287f5ce8",
+            "id": "d7cff25068c2e962",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitetura de software/Design Pattern/Strategy.md",
+                "file": "Computação em nuvem/_Glossário de Cloud Computing — Básico ao Avançado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strategy"
+              "title": "_Glossário de Cloud Computing — Básico ao Avançado"
+            }
+          },
+          {
+            "id": "150f671d1f72ba0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FaaS (Function as a Service).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FaaS (Function as a Service)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -225,15 +239,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "01349f2c287f5ce8",
+  "active": "150f671d1f72ba0d",
   "lastOpenFiles": [
-    "2026-09-10.md",
+    "FaaS (Function as a Service).md",
+    "Computação em nuvem/_Glossário de Cloud Computing — Básico ao Avançado.md",
+    "Computação em nuvem/IaaS (Infrastructure as a Service).md",
+    "Computação em nuvem/PaaS (Plataform as a Service).md",
+    "Computação em nuvem/SaaS (Software as a Service).md",
+    "Computação em nuvem/Provisioning.md",
+    "Computação em nuvem/Sem título.base",
     "Arquitetura de software/Design Pattern/Strategy.md",
     "Arquitetura de software/Comportamentais (como objetos interagem).md",
+    "Arquitetura de software/_Glossário de estudos.md",
+    "Arquitetura de software/Criacionais (como criar objetos).md",
+    "2026-09-10.md",
     "Arquitetura de software/Load Balancer.md",
     "Arquitetura de software/Estruturais (como compor objetos).md",
-    "Arquitetura de software/Criacionais (como criar objetos).md",
-    "Arquitetura de software/_Glossário de estudos.md",
     "recursão profunda.md",
     "Certificado TLS.md",
     "Arquitetura de software/algoritmos de ordenação/IntroSort (Introductory Sort).md",
@@ -252,16 +273,9 @@
     "Arquitetura de software/algoritmos de ordenação/Tim Sort.md",
     "Arquitetura de software/algoritmos",
     "Arquitetura de software/algoritmos de ordenação",
-    "Arquitetura de software/algoritmos de ordenação/Insertion Sort.md",
     "Redes",
-    "Arquitetura de software/SSE (Server-Sent Events).md",
-    "Arquitetura de software/Polling.md",
-    "Arquitetura de software/Complexidade de Algoritmos (O alicerce).md",
-    "Arquitetura de software/algoritmos/O(n log n) - Complexidade Quasilinear.md",
-    "Arquitetura de software/algoritmos/O(n²) - Complexidade Quadrática.md",
     "BackEnd/Java",
     "Excalidraw",
-    "Nova pasta",
-    "Computação em nuvem"
+    "Nova pasta"
   ]
 }
