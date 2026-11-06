@@ -1,4 +1,4 @@
-#arquitetura-de-software #design-patterns 
+#arquitetura-de-software #design-patterns #strategy 
 É um padrão de projeto comportamental cujo objetivo é definir uma família de algoritmos, colocar cada um deles em uma classe separada e tornar seus objetos [^1]intercambiáveis. 
 #### 1. O Problema
 O padrão aborda cenários em que uma classe precisa executar uma tarefa específica de várias maneiras diferentes.
@@ -36,4 +36,4 @@ Imagine que você precisa ir ao aeroporto. Você pode escolher ir de ônibus, t�
 ----
 #flashcards/design-pattern/strategy
 Como funciona o padrão de projeto Strategy?::É um padrão de projeto comportamental cujo objetivo é definir uma família de algoritmos, colocar cada um deles em uma classe separada e tornar seus objetos intercambiáveis.
-<!--SR:!2026-09-19,3,250-->
+<!--SR:!2026-10-18,2,230-->
